@@ -1,15 +1,5 @@
 @charset "UTF-8";
 
-/*--
-Author: W3layouts
-Author URL: http://w3layouts.com
---*/
-/*!
- * Bootstrap v5.0.1 (https://getbootstrap.com/)
- * Copyright 2011-2021 The Bootstrap Authors
- * Copyright 2011-2021 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
- */
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -19162,7 +19152,7 @@ h3.title-style {
   display: grid;
   align-items: center;
   min-height: 100vh;
-  background: url(../images/banner22.jpeg) no-repeat center;
+  background: url(../images/banner2.jpeg) no-repeat center;
   -ms-background-size: cover;
   background-size: cover;
   position: relative;
@@ -19549,12 +19539,26 @@ ul.single-info li p {
   background-color: #e77654;
   background-image: linear-gradient(-224deg, #e77654, #e5529a);
 }
+.w3l-progress .progress-bar.gradient-5 {
+  color: #e5529a;
+  background-color: #e77654;
+  background-image: linear-gradient(-224deg, #e77654, #e5529a);
+}
 
 .w3l-progress .progress-bar.gradient-4:after,
 .w3l-progress .progress-bar.gradient-4:before {
   content: "";
   position: absolute;
   right: 15%;
+  top: 90%;
+  border-radius: 50%;
+  transform: translate(50%, -50%);
+}
+.w3l-progress .progress-bar.gradient-5:after,
+.w3l-progress .progress-bar.gradient-5:before {
+  content: "";
+  position: absolute;
+  right: 50%;
   top: 90%;
   border-radius: 50%;
   transform: translate(50%, -50%);
@@ -19844,7 +19848,7 @@ body:after {
 .lb-outerContainer {
   position: relative;
   background-color: white;
-  *zoom: 1;
+  /* *zoom: 1; */
   width: 250px;
   height: 250px;
   margin: 0 auto;
@@ -19936,7 +19940,7 @@ body:after {
 .lb-dataContainer {
   margin: 0 auto;
   padding-top: 5px;
-  *zoom: 1;
+  /* *zoom: 1; */
   width: 100%;
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 4px;
